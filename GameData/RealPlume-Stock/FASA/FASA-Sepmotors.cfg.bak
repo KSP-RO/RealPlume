@@ -5,16 +5,16 @@
         name = Solid-Sepmotor
         transformName = thrustTransform
         localRotation = 0,0,0
-        localPosition = 0,0,0.3
-        fixedScale = 1
+        localPosition = 0,0,0.4
+        fixedScale = 0.8
         energy = 1
         speed = 1
     }
-    @MODULE[ModuleEngines*]
-    {
-        @name = ModuleEnginesFX
+	@MODULE[ModuleEngines*]
+	{
+		@name = ModuleEnginesFX
         %powerEffectName = Solid-Sepmotor
-    }
+	}
 }
 @PART[FASAMercuryMiniSRB]:FOR[RealPlume]:NEEDS[SmokeScreen]
 {
@@ -23,37 +23,43 @@
         name = Solid-Sepmotor
         transformName = thrustTransform
         localRotation = 0,0,0
-        localPosition = 0,0,2
-        fixedScale = 0.5
+        localPosition = 0,0,0.4
+        fixedScale = 0.8
         energy = 1
         speed = 1
     }
-    @MODULE[ModuleEngines*]
-    {
-        @name = ModuleEnginesFX
+	@MODULE[ModuleEngines*]
+	{
+		@name = ModuleEnginesFX
         %powerEffectName = Solid-Sepmotor
-    }
+	}
 }
 @PART[FASAFairingNosecone*SRB]:FOR[RealPlume]:NEEDS[SmokeScreen]
 {
     PLUME
     {
         name = Solid-Sepmotor
-        transformName = newThrustTransform
+        transformName = thrustTransform
         localRotation = 0,0,0
-        localPosition = 0,0,2
-        fixedScale = 1
+        localPosition = 0,0,0.4
+        fixedScale = 0.8
         energy = 1
         speed = 1
     }
-    @MODULE[ModuleEngines*]
-    {
-        @name = ModuleEnginesFX
+	@MODULE[ModuleEngines*]
+	{
+		@name = ModuleEnginesFX
         %powerEffectName = Solid-Sepmotor
-    }
+	}
 }
 @PART[FASAGerminiSRBInlineSep]:FOR[RealPlume]:NEEDS[SmokeScreen]
 {
+    @MODULE[ModuleEngines*]
+    {
+        @name = ModuleEnginesFX
+        !fxOffset = DELETE
+        %powerEffectName = Solid-Sepmotor
+    }
     PLUME
     {
         name = Solid-Sepmotor
@@ -63,10 +69,5 @@
         fixedScale = 1
         energy = 1.5
         speed = 1
-    }
-    @MODULE[ModuleEngines*]
-    {
-        @name = ModuleEnginesFX
-        %powerEffectName = Solid-Sepmotor
     }
 }
