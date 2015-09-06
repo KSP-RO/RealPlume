@@ -1,0 +1,6 @@
+Each set of particles and effects is licensed differently due to the diverse 
+sources used for the FX.  Please get permission from the original authors and
+artists prior to redistributing this work.
+
+RealPlume is licensed with
+CC-BY-NC-SA 4.0
