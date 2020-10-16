@@ -2,10 +2,10 @@
 {
     "spec_version"      : "v1.4",
     "$kref"             : "#/ckan/github/KSP-RO/RealPlume",
-    "ksp_version_min"   : "1.1",
-    "ksp_version_max"   : "1.9.99",
+    "ksp_version_min"   : "1.8",
+    "ksp_version_max"   : "1.10",
     "name"              : "Real Plume",
-    "author"	          : [ "Zorg", "Blowfish", "Felger" ],
+    "author"	        : [ "Zorg", "Blowfish", "Felger" ],
     "identifier"        : "RealPlume",
     "abstract"          : "A set of expanding plume effects and basic configs that can be attached to any engine as appropriate.  Requires SmokeScreen and secondary configs to function correctly.",
     "license"           : "CC-BY-NC-SA",
