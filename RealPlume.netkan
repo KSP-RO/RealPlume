@@ -9,7 +9,6 @@
     "identifier"        : "RealPlume",
     "abstract"          : "A set of expanding plume effects and basic configs that can be attached to any engine as appropriate.  Requires SmokeScreen and secondary configs to function correctly.",
     "license"           : "CC-BY-NC-SA",
-    "release_status"    : "stable",
     "x_netkan_epoch": "2",
     "depends" : [
         { "name" : "ModuleManager" },
